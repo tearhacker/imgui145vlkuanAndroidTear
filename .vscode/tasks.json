@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "NDK Build",
+            "type": "shell",
+            "command": "ndk-build",
+            "args": [],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Move Libs to Target",
+            "type": "shell",
+            "command": "robocopy", // Windows 用 robocopy（或 xcopy）
+            "args": [
+                "${workspaceFolder}/libs",
+                "C:/Users/tear泪心/Downloads/泪心测试编译文件",
+                "/E", // 复制子目录
+                "/MOVE", // 移动而非复制
+                "/NJH", // 精简日志
+                "/NFL", // 不显示文件名
+                "/NDL"  // 不显示目录名
+            ],
+            "dependsOn": ["NDK Build"], // 依赖 NDK Build 任务
+            "problemMatcher": []
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "triggerTaskOnSave.tasks": {
+        "NDK Build": ["**/jni/*.c", "**/jni/*.mk"]  // 当jni目录下的.c或.mk文件保存时触发构建
+    }
+}
