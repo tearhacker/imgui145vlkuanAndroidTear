@@ -35,7 +35,8 @@
 ```bash
 # 克隆项目（使用tear_imgui20分支）
 git clone -b tear_imgui20 https://github.com/tearhacker/imgui145vlkuanAndroidTear.git
-
+或者
+git clone  https://github.com/tearhacker/imgui145vlkuanAndroidTear/tree/tear_imgui20
 # 设置NDK路径（示例）
 export NDK_ROOT=~/Android/Sdk/ndk/21.4.7075529
 
@@ -45,7 +46,10 @@ ndk-build
 # 指定架构编译
 ndk-build APP_ABI=arm64-v8a  # 推荐64位设备
 
+
+## 泪心致语
 📌 开发者说明
 "人性是最不可相信的，只能认识/了解/掌握，人生皆过客"
 —— 泪心
 本项目原版由中国安卓绘制开源群开发，泪心仅负责搬运维护和发布
+非常感谢伟大的中国QQ开源群发光发热程序猿爱好者
