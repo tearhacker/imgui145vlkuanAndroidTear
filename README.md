@@ -35,7 +35,7 @@
 ### 编译步骤
 ```bash
 # 克隆项目
-git clone https://github.com/your-repo/imgui145vlkuanAndroidTear.git
+git clone https://github.com/tearhacker/imgui145vlkuanAndroidTear/tree/tear_imgui20
 # 设置NDK路径（若未全局配置）
 export NDK_ROOT=/path/to/your/ndk
 # 编译所有架构
