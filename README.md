@@ -78,3 +78,8 @@ Android 15显示旋转异常
 核心图形库	Dear ImGui
 社区支持	中国QQ开源群
 
+**联系方式**  
+- 钉钉群：[泪心工作室](https://qr.dingtalk.com/action/joingroup?... )  
+- QQ：3849081700 / 2254013571
+- 泪心微信号: mi003heal
+
